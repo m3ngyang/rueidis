@@ -345,12 +345,12 @@ func main() {
 		})
 	}
 
-	gf, err := os.Create("../../internal/cmds/gen.go")
+	gf, err := os.Create("../../internals/cmds/gen.go")
 	if err != nil {
 		panic(err)
 	}
 	defer gf.Close()
-	tf, err := os.Create("../../internal/cmds/gen_test.go")
+	tf, err := os.Create("../../internals/cmds/gen_test.go")
 	if err != nil {
 		panic(err)
 	}

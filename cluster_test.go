@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rueian/rueidis/internal/cmds"
+	"github.com/rueian/rueidis/internals/cmds"
 )
 
 var slotsResp = newResult(RedisMessage{typ: '*', values: []RedisMessage{

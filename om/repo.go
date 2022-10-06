@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/rueian/rueidis"
-	"github.com/rueian/rueidis/internal/cmds"
+	"github.com/rueian/rueidis/internals/cmds"
 )
 
 type (

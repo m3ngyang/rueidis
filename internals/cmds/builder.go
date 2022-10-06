@@ -16,7 +16,7 @@ func newCommandSlice() interface{} {
 	return &CommandSlice{s: make([]string, 0, 2)}
 }
 
-// NewBuilder creates a Builder and initializes the internal sync.Pool
+// NewBuilder creates a Builder and initializes the internals sync.Pool
 func NewBuilder(initSlot uint16) Builder {
 	return Builder{ks: initSlot}
 }

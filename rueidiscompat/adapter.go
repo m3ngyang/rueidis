@@ -37,8 +37,8 @@ import (
 	"time"
 
 	"github.com/rueian/rueidis"
-	"github.com/rueian/rueidis/internal/cmds"
-	"github.com/rueian/rueidis/internal/util"
+	"github.com/rueian/rueidis/internals/cmds"
+	"github.com/rueian/rueidis/internals/util"
 )
 
 const KeepTTL = -1
