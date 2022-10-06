@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/rueian/rueidis/internals/cmds"
-	"github.com/rueian/rueidis/internals/util"
+	"github.com/m3ngyang/rueidis/internals/cmds"
+	"github.com/m3ngyang/rueidis/internals/util"
 )
 
 // ErrNoSlot indicates that there is no redis node owns the key slot.

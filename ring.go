@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/rueian/rueidis/internals/cmds"
+	"github.com/m3ngyang/rueidis/internals/cmds"
 )
 
 type queue interface {

@@ -1,6 +1,6 @@
 package rueidis
 
-import "github.com/rueian/rueidis/internals/cmds"
+import "github.com/m3ngyang/rueidis/internals/cmds"
 
 // Commands is an exported alias to []cmds.Completed.
 // This allows users to store commands for later usage, for example:
